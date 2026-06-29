@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://localhost/srms/dashboard.php -->
+<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Student Result Management System | Dashboard</title>
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/bootstrap.min.css" media="screen">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/font-awesome.min.css" media="screen">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/animate.min.css" media="screen">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/lobipanel.min.css" media="screen">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/toastr.min.css" media="screen">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/blue.css">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/red.css">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/green.css">
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/main.css" media="screen">
+        <script src="./Student Result Management System _ Dashboard_files/modernizr.min.js.download"></script>
+    </head>
+    <body class="top-navbar-fixed  pace-done"><div class="pace  pace-inactive"><div class="pace-progress" data-progress-text="100%" data-progress="99" style="transform: translate3d(100%, 0px, 0px);">
+  <div class="pace-progress-inner"></div>
+</div>
+<div class="pace-activity"></div></div>
+        <div class="main-wrapper">
+                <nav class="navbar top-navbar bg-white box-shadow">
+            	<div class="container-fluid">
+                    <div class="row">
+                        <div class="navbar-header no-padding">
+                			<a class="navbar-brand" href="http://localhost/srms/dashboard.php">
+                			    SRMS | Admin
+                			</a>
+                            <span class="small-nav-handle hidden-sm hidden-xs"><i class="fa fa-outdent"></i></span>
+                			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                				<span class="sr-only">Toggle navigation</span>
+                				<i class="fa fa-ellipsis-v"></i>
+                			</button>
+                            <button type="button" class="navbar-toggle mobile-nav-toggle">
+                				<i class="fa fa-bars"></i>
+                			</button>
+                		</div>
+                        <!-- /.navbar-header -->
+
+                		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+                			<ul class="nav navbar-nav" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                <li class="hidden-sm hidden-xs"><a href="http://localhost/srms/dashboard.php#" class="user-info-handle"><i class="fa fa-user"></i></a></li>
+                                <li class="hidden-sm hidden-xs"><a href="http://localhost/srms/dashboard.php#" class="full-screen-handle"><i class="fa fa-arrows-alt"></i></a></li>
+                       
+                				<li class="hidden-xs hidden-xs"><!-- <a href="#">My Tasks</a> --></li>
+                               
+                			</ul>
+                            <!-- /.nav navbar-nav -->
+
+                			<ul class="nav navbar-nav navbar-right" data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                             
+                				
+                				    <li><a href="http://localhost/srms/logout.php" class="color-danger text-center"><i class="fa fa-sign-out"></i> Logout</a></li>
+                					
+                		
+                            
+                			</ul>
+                            <!-- /.nav navbar-nav navbar-right -->
+                		</div>
+                		<!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.row -->
+            	</div>
+            	<!-- /.container-fluid -->
+            </nav>
+            <div class="content-wrapper">
+                <div class="content-container">
+
+                    <div class="left-sidebar bg-black-300 box-shadow ">
+                        <div class="sidebar-content">
+                            <div class="user-info closed">
+                                <img src="./Student Result Management System _ Dashboard_files/c2c2c2" alt="John Doe" class="img-circle profile-img">
+                                <h6 class="title">Admin</h6>
+                                <small class="info">Administrator</small>
+                            </div>
+                            <!-- /.user-info -->
+
+                            <div class="sidebar-nav">
+                                <ul class="side-nav color-gray">
+                                    <li class="nav-header">
+                                        <span class="">Main Category</span>
+                                    </li>
+                                    <li>
+                                        <a href="http://localhost/srms/dashboard.php"><i class="fa fa-dashboard"></i> <span>Dashboard</span> </a>
+                                     
+                                    </li>
+
+                                    <li class="nav-header">
+                                        <span class="">Appearance</span>
+                                    </li>
+                                    <li class="has-children">
+                                        <a href="http://localhost/srms/dashboard.php#"><i class="fa fa-file-text"></i> <span>Student Classes</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <ul class="child-nav" style="display: none;">
+                                            <li><a href="http://localhost/srms/create-class.php"><i class="fa fa-bars"></i> <span>Create Class</span></a></li>
+                                            <li><a href="http://localhost/srms/manage-classes.php"><i class="fa fa fa-server"></i> <span>Manage Classes</span></a></li>
+                                           
+                                        </ul>
+                                    </li>
+  <li class="has-children">
+                                        <a href="http://localhost/srms/dashboard.php#"><i class="fa fa-file-text"></i> <span>Subjects</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <ul class="child-nav" style="display: none;">
+                                            <li><a href="http://localhost/srms/create-subject.php"><i class="fa fa-bars"></i> <span>Create Subject</span></a></li>
+                                            <li><a href="http://localhost/srms/manage-subjects.php"><i class="fa fa fa-server"></i> <span>Manage Subjects</span></a></li>
+                                           <li><a href="http://localhost/srms/add-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Add Subject Combination </span></a></li>
+                                           <a href="http://localhost/srms/manage-subjectcombination.php"><i class="fa fa-newspaper-o"></i> <span>Manage Subject Combination </span></a>
+                                        </ul>
+                                    </li>
+   <li class="has-children">
+                                        <a href="http://localhost/srms/dashboard.php#"><i class="fa fa-users"></i> <span>Students</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <ul class="child-nav" style="display: none;">
+                                            <li><a href="http://localhost/srms/add-students.php"><i class="fa fa-bars"></i> <span>Add Students</span></a></li>
+                                            <li><a href="http://localhost/srms/manage-students.php"><i class="fa fa fa-server"></i> <span>Manage Students</span></a></li>
+                                           
+                                        </ul>
+                                    </li>
+<li class="has-children">
+                                        <a href="http://localhost/srms/dashboard.php#"><i class="fa fa-info-circle"></i> <span>Result</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <ul class="child-nav" style="display: none;">
+                                            <li><a href="http://localhost/srms/add-result.php"><i class="fa fa-bars"></i> <span>Add Result</span></a></li>
+                                            <li><a href="http://localhost/srms/manage-results.php"><i class="fa fa fa-server"></i> <span>Manage Result</span></a></li>
+                                           
+                                        </ul>        </li>
+
+
+<li class="has-children">
+                                        <a href="http://localhost/srms/dashboard.php#"><i class="fa fa-bell"></i> <span>Notices</span> <i class="fa fa-angle-right arrow"></i></a>
+                                        <ul class="child-nav" style="display: none;">
+                                            <li><a href="http://localhost/srms/add-notice.php"><i class="fa fa-bars"></i> <span>Add Notice</span></a></li>
+                                            <li><a href="http://localhost/srms/manage-notices.php"><i class="fa fa fa-server"></i> <span>Manage Notices</span></a></li>
+                                           
+                                        </ul>        </li>
+
+
+
+                                        <li><a href="http://localhost/srms/change-password.php"><i class="fa fa fa-server"></i> <span> Admin Change Password</span></a></li>
+                                           
+                            
+                            </ul></div>
+                            <!-- /.sidebar-nav -->
+                        </div>
+                        <!-- /.sidebar-content -->
+                    </div>  
+
+                    <div class="main-page">
+                        <div class="container-fluid">
+                            <div class="row page-title-div">
+                                <div class="col-sm-6">
+                                    <h2 class="title">Dashboard</h2>
+                                  
+                                </div>
+                                <!-- /.col-sm-6 -->
+                            </div>
+                            <!-- /.row -->
+                      
+                        </div>
+                        <!-- /.container-fluid -->
+
+                        <section class="section">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-primary" href="http://localhost/srms/manage-students.php">
+
+                                            <span class="number counter">6</span>
+                                            <span class="name">Regd Users</span>
+                                            <span class="bg-icon"><i class="fa fa-users"></i></span>
+                                        </a>
+                                        <!-- /.dashboard-stat -->
+                                    </div>
+                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <a class="dashboard-stat bg-danger" href="http://localhost/srms/manage-subjects.php">
+                                            <span class="number counter">7</span>
+                                            <span class="name">Subjects Listed</span>
+                                            <span class="bg-icon"><i class="fa fa-ticket"></i></span>
+                                        </a>
+                                        <!-- /.dashboard-stat -->
+                                    </div>
+                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:1%;">
+                                        <a class="dashboard-stat bg-warning" href="http://localhost/srms/manage-classes.php">
+                                                                                    <span class="number counter">8</span>
+                                            <span class="name">Total classes listed</span>
+                                            <span class="bg-icon"><i class="fa fa-bank"></i></span>
+                                        </a>
+                                        <!-- /.dashboard-stat -->
+                                    </div>
+                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" style="margin-top:1%">
+                                        <a class="dashboard-stat bg-success" href="http://localhost/srms/manage-results.php">
+                                        
+                                            <span class="number counter">5</span>
+                                            <span class="name">Results Declared</span>
+                                            <span class="bg-icon"><i class="fa fa-file-text"></i></span>
+                                        </a>
+                                        <!-- /.dashboard-stat -->
+                                    </div>
+                                    <!-- /.col-lg-3 col-md-3 col-sm-6 col-xs-12 -->
+
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                            <!-- /.container-fluid -->
+                        </section>
+                        <!-- /.section -->
+
+                    </div>
+                    <!-- /.main-page -->
+
+                    
+                </div>
+                <!-- /.content-container -->
+            </div>
+            <!-- /.content-wrapper -->
+
+        </div>
+        <!-- /.main-wrapper -->
+
+        <!-- ========== COMMON JS FILES ========== -->
+        <script src="./Student Result Management System _ Dashboard_files/jquery-2.2.4.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/jquery-ui.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/bootstrap.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/pace.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/lobipanel.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/iscroll.js.download"></script>
+
+        <!-- ========== PAGE JS FILES ========== -->
+        <script src="./Student Result Management System _ Dashboard_files/prism.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/waypoints.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/jquery.counterup.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/amcharts.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/serial.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/export.min.js.download"></script>
+        <link rel="stylesheet" href="./Student Result Management System _ Dashboard_files/export.css" type="text/css" media="all">
+        <script src="./Student Result Management System _ Dashboard_files/light.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/toastr.min.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/icheck.min.js.download"></script>
+
+        <!-- ========== THEME JS ========== -->
+        <script src="./Student Result Management System _ Dashboard_files/main.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/production-chart.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/traffic-chart.js.download"></script>
+        <script src="./Student Result Management System _ Dashboard_files/task-list.js.download"></script>
+        <script>
+            $(function(){
+
+                // Counter for dashboard stats
+                $('.counter').counterUp({
+                    delay: 10,
+                    time: 1000
+                });
+
+                // Welcome notification
+                toastr.options = {
+                  "closeButton": true,
+                  "debug": false,
+                  "newestOnTop": false,
+                  "progressBar": false,
+                  "positionClass": "toast-top-right",
+                  "preventDuplicates": false,
+                  "onclick": null,
+                  "showDuration": "300",
+                  "hideDuration": "1000",
+                  "timeOut": "5000",
+                  "extendedTimeOut": "1000",
+                  "showEasing": "swing",
+                  "hideEasing": "linear",
+                  "showMethod": "fadeIn",
+                  "hideMethod": "fadeOut"
+                }
+                toastr["success"]( "Welcome to student Result Management System!");
+
+            });
+        </script>
+    
+
+</body></html>
